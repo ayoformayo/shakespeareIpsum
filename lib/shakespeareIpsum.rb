@@ -1,4 +1,7 @@
-class ShakespeareIpsum
+require 'shakespeareIpsum/sonnets'
+require 'shakespeareIpsum/names'
+
+module ShakespeareIpsum
   # Credit to http://www.pangloss.com/seidel/shake_rule.html for the word list
   INSULT_ARRAY = [
     ["artless", "bawdy", "beslubbering", "bootless", "churlish",
