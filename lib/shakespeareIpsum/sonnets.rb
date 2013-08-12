@@ -21,5 +21,3 @@ class ShakespeareIpsum::Sonnets
     return FINAL_SONNET_ARRAY.sample.slice(0,number).join("\n")
   end
 end
-
-puts ShakespeareIpsum::Sonnets.lines(3)

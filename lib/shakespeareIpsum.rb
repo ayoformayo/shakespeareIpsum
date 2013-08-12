@@ -37,7 +37,3 @@ class ShakespeareIpsum
     return insult.join(" ")
   end
 end
-
-5.times do
-  puts ShakespeareIpsum.insult!  
-end
