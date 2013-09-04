@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'shakespeareIpsum'
-  s.version     = '0.0.2'
+  s.version     = '0.0.5'
   s.date        = '2013-08-11'
   s.summary     = "A better Ipsum generator, now with more Victorian insults!"
   s.authors     = ["Jimmi Carney"]

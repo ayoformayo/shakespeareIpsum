@@ -2,7 +2,7 @@ module ShakespeareIpsum
 
   class Sonnets
     class << self
-      file = File.read("lib/shakespeareIpsum/sonnets.txt")
+      file = File.read(File.dirname(File.expand_path(__FILE__)) + "/sonnets.txt")
       raw_sonnet_array = file.split(/\n{2,}/)
       edited_sonnet_array = []
       raw_sonnet_array.each do |sonnet| 
